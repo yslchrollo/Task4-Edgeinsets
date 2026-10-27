@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Rodrigo_Activity 3',
+      title: 'Edgeinsets_rodrigo',
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
@@ -33,7 +33,7 @@ class EdgeInsetsDemo extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Rodrigo_Activity 3',
+          'Edgeinsets_rodrigo',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,

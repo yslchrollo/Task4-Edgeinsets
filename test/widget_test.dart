@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:rodrigo_act3/main.dart';
+import 'package:rodrigo_Task4/main.dart';
 
 void main() {
   testWidgets('EdgeInsets demo renders AppBar and all four colored boxes', (
@@ -8,7 +8,7 @@ void main() {
   ) async {
     await tester.pumpWidget(const MyApp());
 
-    expect(find.text('Rodrigo_Activity 3'), findsOneWidget);
+    expect(find.text('Edgeinsets_rodrigo'), findsOneWidget);
     expect(find.byType(SingleChildScrollView), findsOneWidget);
     expect(find.text('EdgeInsets.all(30)'), findsOneWidget);
     expect(
